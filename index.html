@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Test Page: Don't Panic</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-      div{
-        border: 1px solid black;
-      }
-    </style>
-</head>
-<body>
-  <h1>I'm an h1</h1>
-  <ul>
-    <li><a href="https://example.com/" style="color:red">link</a></li>
-    <li><a href="https://example.com/" style="color:red">link</a></li>
-    <li><a href="https://example.com/" style="color:red">link</a></li>
-  </ul>
+  <head>
+    <title>Test Page: Don't Panic</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <style>
+        a{
+          color:red;
+        }
+        .bio-box a{
+          color:green;
+        }
+        #exec-bio{
+          background-color: lightgrey;
+        }
+        .bio-box{   
+          border: 1px solid black;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>I'm an h1</h1>
+    <ul>
+      <li>
+        <a href="https://example.com/">link</a>
+      </li>
+      <li>
+        <a href="https://example.com/">link</a>
+      </li>
+      <li>
+        <a href="https://example.com/">link</a>
+      </li>
+    </ul>
 
-  <h2>I'm an h2</h2>
-  <div><a href="https://example.com/" style="color:green">I'm a link</a></div>
-  <div><a href="https://example.com/" style="color:green">I'm a link</a></div>
-  <div><a href="https://example.com/" style="color:green">I'm a link</a></div>
-  <div><a href="https://example.com/" style="color:green">I'm a link</a></div>
-</body>
+    <h2>I'm an h2</h2>
+    <div id="exec-bio" class="bio-box">
+      <a href="https://example.com/">I'm a link</a>
+    </div>
+    <div class="bio-box">
+      <a href="https://example.com/">I'm a link</a>
+    </div>
+    <div class="bio-box">
+      <a href="https://example.com/">I'm a link</a>
+    </div>
+    <div class="bio-box">
+      <a href="https://example.com/">I'm a link</a>
+    </div>
+  </body>
 </html>
