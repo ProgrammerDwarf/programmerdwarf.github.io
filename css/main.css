@@ -68,11 +68,10 @@ h2 ~ p {
 .header-logo img {
   width: 4.3vh;
 }
-}
 .header-logo:hover,
-.header-logo:active{
-  opacity: 0.5;
-} 
+.header-logo:active {
+  background-color: #ed6e2f;
+}
 
 
 /* HERO STYLES */
