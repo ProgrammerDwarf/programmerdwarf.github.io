@@ -117,6 +117,7 @@ h2 ~ p {
   padding: 0;
   text-align: center;
 }
+
 .social-link {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
@@ -128,7 +129,7 @@ h2 ~ p {
   font-weight: bold;
   height: 2.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.80em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -137,6 +138,9 @@ h2 ~ p {
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
+}
+.social-footer{
+  margin-top: 1%;
 }
 
 /* BIO STYLES */
