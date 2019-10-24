@@ -1,0 +1,2 @@
+Take care about the css links on the head file. It cannot be css/main.css because it will not be recognized by the new file when we links to it 
+the default layout. Change the reference by writing "/css/main.css
