@@ -6,6 +6,9 @@ html {
 }
 body {
   font-family: helvetica, arial, sans;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 h1 {
   font-size: 7vw;
@@ -19,6 +22,7 @@ a {
 }
 p {
   line-height: 1.5;
+  margin: 0.75em 0;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -26,6 +30,11 @@ h2 ~ p {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
+}
+.content-container{
+  flex-grow: 1;
+  padding-top: 10vh;
+  width: 100%;
 }
 
 /* HEADER STYLES */
@@ -116,7 +125,7 @@ h2 ~ p {
   background-color: #c7dbfc;
   background-size: cover;
   box-sizing: border-box;
-  height: 100vh;
+  height: 90vh;
   padding-top: 10vh;
 }
 
@@ -205,14 +214,25 @@ h2 ~ p {
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
+  display: flex;
+align-items: center;
+}
+.home-callout h3{
+  color: inherit;
+  margin-top: 1em;
 }
 .callout-title {
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 .callout-copy {
   font-size: 0.8rem;
+  flex-shrink: 0;
+  flex-basis: 45em;
+  padding: 0 3vw;
 }
 
 /* BIO STYLES */
