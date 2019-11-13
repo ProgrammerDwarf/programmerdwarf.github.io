@@ -379,6 +379,10 @@ h2 ~ p {
   font-style: italic;
   margin-top: 0.5em;
 }
+.blog-title-list img{
+  border-radius: 99px;
+  height: 2em;
+}
 .blog-posts ~ .blog-posts {
   border-top: 1px dotted rgba(0, 0, 0, 0.1);
   margin-top: 4em;
