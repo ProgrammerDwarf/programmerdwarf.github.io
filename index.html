@@ -5,9 +5,11 @@ layout: default
 <div class="home">
   <div class="full-hero hero-home">
     <div class="hero-content">
-      <h1>code dangerously</h1>
+      <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
-          {% include social-links.html %}
+        <li><a href="https://facebook.com/learnenough"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/learnenough"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/learnenough"><i class="fa fa-github"></i></a></li>
       </ul>
     </div>
   </div>
@@ -26,16 +28,16 @@ layout: default
         We believe there are <strong>at least a billion people</strong> who can
         benefit from learning technical sophistication, probably more. To join our
         movement, <a href="https://learnenough.com/#email_list">sign up for our
-        official email list</a> now.
+          official email list</a> now.
       </p>
       <h3>Background</h3>
       <p>
         Learn Enough to Be Dangerous is an outgrowth of the
         <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the
         <a href="https://www.softcover.io/">Softcover publishing platform</a>. This
-        page is part of the sample site for <a
-        href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
-        to Be Dangerous</em></a>, which teaches the basicics of
+        page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and
+            Layout
+            to Be Dangerous</em></a>, which teaches the basicics of
         <strong>C</strong>ascading <strong>S</strong>tyle
         <strong>S</strong>heets, the language that
         allows web pages to be styled. Other related tutorials can be found at
@@ -50,21 +52,19 @@ layout: default
       <header class="post-header">
         <h2>
           <a href="{{ site.posts.first.url }}">
-          {{ site.posts.first.title }}</a>
+            {{ site.posts.first.title }}</a>
         </h2>
         <div class="post-byline">
           <img src="{{ site.posts.first.gravatar }}">
-          <a href="{{ site.posts.first.authorTwitter }}"
-          class="social-link">Tw</a>
+          <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
           by: {{ site.posts.first.author }}
           <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
         </div>
       </header>
-      <div class="posts-image"
-      style="background-image:url({{ site.posts.first.postHero }})"></div>
+      <div class="posts-image" style="background-image:url({{ site.posts.first.postHero }})"></div>
       {{ site.posts.first.excerpt }}
     </div>
-  </div>  
+  </div>
 
   <div class="home-section">
     <h2>THE FOUNDERS</h2>
@@ -87,7 +87,7 @@ layout: default
             Known for his dazzling charm, rapier wit, and unrivaled humility,
             Michael is the creator of the
             <a href="https://www.railstutorial.org/">Ruby on Rails
-            Tutorial</a> and principal author of the
+              Tutorial</a> and principal author of the
             <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a>
             introductory sequence.
           </p>
@@ -95,7 +95,7 @@ layout: default
             Michael is also notorious as the founder of
             <a href="http://tauday.com/">Tau Day</a> and author of
             <a href="http://tauday.com/tau-manifesto"><em>The Tau
-            Manifesto</em></a>, but rumors that he's secretly a supervillain are
+                Manifesto</em></a>, but rumors that he's secretly a supervillain are
             slightly exaggerated.
           </p>
         </div>
