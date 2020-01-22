@@ -644,7 +644,7 @@ h2 ~ p {
   .show-mobile-menu {
     display: block;
     float: right;
-    margin-top: 1.5vh
+    margin-top: 1.5vh;
     padding: 1.5em;
     position: relative;
   }
@@ -676,6 +676,7 @@ h2 ~ p {
   .header-nav li:first-child a {
     color: #fff;
   }
+  
   /* HIDE DROPDOWN IN THE NAV MENU */
   .header-nav .dropdown:hover .drop-menu,
   .header-nav .drop-trigger:after {
