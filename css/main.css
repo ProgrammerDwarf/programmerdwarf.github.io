@@ -5,11 +5,16 @@ html {
   padding: 0 30px;
 }
 body {
-  font-family: helvetica, arial, sans;
   display: flex;
   flex-direction: column;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
+}
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -212,21 +217,21 @@ h2 ~ p {
 }
 
 .social-link {
-  background: rgba(150, 150, 150, 0.5);
+  background: rgba(150,150,150,0.5);
   border-radius: 99px;
   box-sizing: border-box;
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.80em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list > li {
   display: inline-block;
@@ -287,6 +292,7 @@ h2 ~ p {
   margin: auto;
   max-width: 960px;
   overflow: hidden;
+  width: 80%;
 }
 .bio-box {
   box-sizing: border-box;
