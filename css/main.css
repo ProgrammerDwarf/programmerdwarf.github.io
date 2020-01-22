@@ -557,12 +557,10 @@ h2 ~ p {
   bottom: 0.4em;
 }
   /* MOBILE MENU */
-  .mobile-menu-check,
-  .show-mobile-menu {
+.mobile-menu-check,.show-mobile-menu {
     display: none;
   }
-  .nav-links a,
-.drop-trigger,
+.nav-links a,.drop-trigger,
 .show-mobile-menu {
   font-size: 0.8rem;
   font-weight: bold;
@@ -698,6 +696,5 @@ h2 ~ p {
     top: 1.5em;
     width: 100%;
     text-align: center;
-    height: 90vh;
   }
 }
