@@ -1,11 +1,13 @@
 ---
 layout: default
+title: Reinid's blog
+description: This site is all I have to say
 ---
 
 <div class="page blog-index">
   <h1>Bloggie Blog</h1>
   <div class="col-two blog-cols">
-    <div class="col col-aside blog-recent"> 
+    <div class="col col-aside blog-recent">
       {% include recent-post.html %}
     </div>
     <div class="col col-content blog-previews">
@@ -20,8 +22,8 @@ layout: default
             <span> - {{ post.date | date: '%B %-d, %Y' }}</span>
           </div>
         </header>
-      <div class="posts-image" style="background-image:url({{ post.postHero }})">
-      </div>
+        <div class="posts-image" style="background-image:url({{ post.postHero }})">
+        </div>
         {{ post.excerpt}}
       </div>
       {% endfor %}
